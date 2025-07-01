@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Attributs</h1>
+    <p>* All HTML elements can have attributes</p>
+    <p>* Attributes provide additional information about elements</p>
+    <p>* Attributes are always specified in the start tag</p>
+    <p>* Attributes usually come in name/value pairs like :name="value"</p>
+    <br>
+    <h2>The href Attribute</h2>
+    <a href="https://www.w3schools.com">Visit W3School</a>
+    <br>
+    <h2>The src Attribute</h2>
+    <p>The src attribute specifies the path to the image to be displayd</p>
+    <img src="B3.png" height="200" width="200">
+    <p>There are two ways to specify the URL in the src attribute:</p>
+    <ol>
+        <li>
+            <h3>1.Absolute URL:</h3>
+            <p>Links to an external image that is hosted on another website.<br>Example:src="https://www.w3schools.com/images/img_girl.jpg".</p>
+            <img src="https://4kwallpapers.com/images/walls/thumbs_3t/12547.jpeg" height="200" width="400">
+        </li>
+        <li>
+            <h3>Relative URL</h3>
+            <P>Links to an image that is hosted within the website.Here the URL does not include the domain name.If the URL begins without a slash , it will be relative to the current page<br>Example :src="img_girl.jpg".If the URL begins with a slash ,it will be relative to the domain.Example:src="/images/img_girl.jpg".</P>
+            <img src="./Images/hacker.png" height="200" width="200">
+        </li>
+    </ol>
+    <h2>The alt Attribute</h2>
+    <p>The required alt attribute for the image tag specifies an alternate text for an image</p>
+    <img src="img_girl.jpg" alt="Image">
+    <h2>The style Attribute</h2>
+    <P>The style attribute is used to add style to an element ,such as color,font,size,and more</P>
+    <p style="color:red;">This is a red paragraph.</p>
+    <h2>The lang Attribute</h2>
+    <p>You should always include the lang attribute inside the html tag,to declare the language of the web page .This is meant to assist search engines and browser.<br>Example:lang="en-US"</p>
+    <h2>The title Attribute</h2>
+    <p>The title attribute defines some extra information about an element</p>
+    <p title="I'm a tooltip">This is a paragraph.</p>
+</body>
+</html>
